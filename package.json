@@ -4,7 +4,7 @@
   "description": "Testing publishing packages to npm",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "semantic-release": "semantic-release",
     "commit": "git-cz"
   },
@@ -29,6 +29,7 @@
   "devDependencies": {
     "commitizen": "4.0.3",
     "cz-conventional-changelog": "3.0.2",
+    "jest": "24.8.0",
     "semantic-release": "15.13.19"
   },
   "config": {
