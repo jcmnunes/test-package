@@ -1,14 +1,16 @@
 {
   "name": "@binarycapsule/test-package",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "Testing publishing packages to npm",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release",
+    "commit": "git-cz"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jcmnunes/test-package.git"
+    "url": "https://github.com/jcmnunes/test-package.git"
   },
   "keywords": [
     "testing",
@@ -24,5 +26,10 @@
   "dependencies": {
     "unique-random-array": "2.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "commitizen": "4.0.3",
+    "cz-conventional-changelog": "3.0.2",
+    "semantic-release": "^15.13.18"
+  },
+  "czConfig": "node_modules/cz-conventional-changelog"
 }
