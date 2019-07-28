@@ -1,5 +1,5 @@
 {
-  "name": "test-package",
+  "name": "@binarycapsule/test-package",
   "version": "1.0.0",
   "description": "Testing publishing packages to npm",
   "main": "src/index.js",
@@ -23,5 +23,6 @@
   "homepage": "https://github.com/jcmnunes/test-package#readme",
   "dependencies": {
     "unique-random-array": "2.0.0"
-  }
+  },
+  "devDependencies": {}
 }
